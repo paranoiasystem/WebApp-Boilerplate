@@ -6,6 +6,8 @@ echo ""
 rm -f README.md &> /dev/null
 rm -f LICENSE &> /dev/null
 rm -f .gitignore &> /dev/null
+rm -f setup.bat &> /dev/null
+rm -f distribute.bat &> /dev/null
 rm -Rf .git &> /dev/null
 
 echo "Launch npm install"
