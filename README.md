@@ -11,6 +11,7 @@ Inspired by: https://github.com/ghzmdr/web-workspace
 #Requirements
 
 +	npm
++ git
 
 #How to use?
 
