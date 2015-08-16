@@ -1,7 +1,7 @@
 app.factory('versionFactory', function() {
 
   function version () {
-  	return '0.0.1';
+  	return '0.0.2';
   }
 
   function developer () {
