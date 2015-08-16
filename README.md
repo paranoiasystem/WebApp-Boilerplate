@@ -4,7 +4,7 @@ A WebApp Boilerplate (AngularJS + Normalize.css + Lemonade + Bower + Gulp)
 
 It is Fully costumizable
 
-Version: 0.0.1
+Version: 0.0.2
 
 Website: http://marcoferraioli.com/WebApp-Boilerplate/
 
