@@ -5,6 +5,8 @@ echo "Remove what you not need"
 echo ""
 rm -f README.md &> /dev/null
 rm -f LICENSE &> /dev/null
+rm -f .gitignore &> /dev/null
+rm -Rf .git &> /dev/null
 
 echo "Launch npm install"
 echo ""
