@@ -4,6 +4,10 @@ A WebApp Boilerplate (AngularJS + Normalize.css + Lemonade + Bower + Gulp)
 
 It is Fully costumizable
 
+Version: 0.0.1
+
+Inspired by: https://github.com/ghzmdr/web-workspace
+
 #Requirements
 
 +	npm
