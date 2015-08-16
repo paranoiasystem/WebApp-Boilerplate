@@ -1,0 +1,11 @@
+{
+  "name": "AppName",
+  "version": "0.0.1",
+  "dependencies": {
+    "lemonade": "*",
+    "normalize.css": "*",
+    "angular": "*",
+    "angular-route": "*"
+  },
+  "private": true
+}

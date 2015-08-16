@@ -1,0 +1,36 @@
+h1{
+	font: 5em Helvetica, Verdana, sans-serif;
+}
+
+h2 {
+	font: 3em Helvetica, Verdana, sans-serif;
+}
+
+p {
+	font: 1.5em Helvetica, Verdana, sans-serif;
+}
+
+ul {
+	font: 2em Helvetica, Verdana, sans-serif;
+}
+
+ul li {
+	display: inline;
+}
+
+ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+ul li:after {
+	content: ", "; 
+}
+
+ul li.prelast:after {
+	content: " & ";
+}
+
+ul li.last:after {
+	content: ".";
+}

@@ -1,0 +1,21 @@
+<div class="frame">
+	<div class="bit-1 box">
+		<input type="text" placeholder="Enter your name" ng-model="name" />
+		<h1>Hello {{ name }}!</h1>
+	</div>
+	<div class="bit-1 box box--new">
+		<p>
+		Welcome in WebApp Boilerplate version: {{ version }}. <br />
+		<h2>I use:</h2>
+		<ul>
+			<li><a href="#">AngularJS</a></li>
+			<li><a href="#">Normalize.css</a></li>
+			<li><a href="#">Lemonade</a></li>
+			<li><a href="#">Bower</a></li>
+			<li class="prelast"><a href="#">npm</a></li>
+			<li><a href="#">Gulp</a></li>
+		</ul> <br />
+		Made by <a ng-href="{{ webSite }}">{{ developer }}</a> A.K.A. <a ng-href="{{ githubUrl }}">{{ githubName }}</a>
+	</p>
+	</div>
+</div>

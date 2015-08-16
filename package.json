@@ -1,0 +1,26 @@
+{
+	"name": "AppName",
+	"url": "http://",
+	"version": "0.0.1",
+	"license": "",
+	"repository": {
+		"type": "git",
+		"url": "git://"
+		},
+		"devDependencies": {
+			"gulp": "*",
+			"gulp-notify": "*",
+			"gulp-concat": "*",
+			"gulp-ng-annotate": "*",
+			"gulp-uglify": "*",
+			"gulp-uglifycss": "*",
+			"gulp-watch": "*",
+			"bower": "*"
+			},
+			"scripts": {
+				"bower": "bower install",
+				"default": "gulp default",
+				"minifyjs": "gulp minifyjs",
+				"minifycss": "gulp minifycss"
+			}
+		}
