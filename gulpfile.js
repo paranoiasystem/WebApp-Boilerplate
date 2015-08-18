@@ -1,11 +1,10 @@
 var gulp = require('gulp');
 var fs = require('fs');
-var notify = require('gulp-notify');
 var concat = require('gulp-concat');
 var ngAnnotate = require('gulp-ng-annotate');
-var uglify =require('gulp-uglify');
+var uglify = require('gulp-uglify');
 var uglifycss = require('gulp-uglifycss');
-var watch = require('gulp-watch');
+var webserver = require('gulp-webserver');
 
 var input = {
 	js: 'js/',
@@ -17,7 +16,16 @@ var output = {
 	css: 'css/main.css'
 };
 
-gulp.task('default', function() {
+gulp.task('server', function() {
+	gulp.src('.')
+    .pipe(webserver({
+      livereload: true,
+      directoryListing: true,
+      open: 'index.html'
+    }));
+});
+
+gulp.task('default', ['server'], function() {
 	gulp.watch(input.js + '/**/*.js', ['minifyjs']);
 	gulp.watch(input.css + '/**/*.css', ['minifycss']);
 });
@@ -42,8 +50,7 @@ gulp.task('minifycss', ['cleancss'], function () {
 	return gulp.src(input.css + '/**/*.css')
 	.pipe(concat(output.css))
 	.pipe(uglifycss())
-	.pipe(gulp.dest('.'))
-	.pipe(notify('Minify CSS'));
+	.pipe(gulp.dest('.'));
 });
 
 gulp.task('minifyjs', ['cleanjs'], function () {
@@ -51,6 +58,5 @@ gulp.task('minifyjs', ['cleanjs'], function () {
 	.pipe(concat(output.js))
 	.pipe(ngAnnotate())
 	.pipe(uglify())
-	.pipe(gulp.dest('.'))
-	.pipe(notify('Minify JS'));
+	.pipe(gulp.dest('.'));
 });

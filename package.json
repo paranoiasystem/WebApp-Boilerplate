@@ -9,18 +9,19 @@
 		},
 		"devDependencies": {
 			"gulp": "*",
-			"gulp-notify": "*",
+			"gulp-watch": "*",
 			"gulp-concat": "*",
 			"gulp-ng-annotate": "*",
 			"gulp-uglify": "*",
 			"gulp-uglifycss": "*",
-			"gulp-watch": "*",
+			"gulp-webserver": "*",
 			"bower": "*"
 			},
 			"scripts": {
 				"bower": "bower install",
 				"default": "gulp default",
 				"minifyjs": "gulp minifyjs",
-				"minifycss": "gulp minifycss"
+				"minifycss": "gulp minifycss",
+				"liveserver": "gulp server"
 			}
 		}

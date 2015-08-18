@@ -1,7 +1,7 @@
 app.factory('versionFactory', function() {
 
   function version () {
-  	return '0.0.2';
+  	return '0.0.3';
   }
 
   function developer () {
@@ -9,7 +9,7 @@ app.factory('versionFactory', function() {
   }
 
   function webSite () {
-  	return 'https://marcoferraioli.com/';
+  	return 'https://www.marcoferraioli.com/';
   }
 
   function githubName () {
