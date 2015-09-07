@@ -3,7 +3,7 @@ var app = angular.module('AppName', ['ngRoute'])
 	$routeProvider
 	.when('/home', {
 		controller:'homeController',
-		templateUrl:'parts/home/home.html'
+		templateUrl:'views/home.html'
 	})
 	.otherwise({
 		redirectTo:'/home'

@@ -17,7 +17,6 @@ Inspired by: https://github.com/ghzmdr/web-workspace
 
 #Features
 
-+ live browser and reload
 + very helpful automatization scripts
 + costumizable
 + free
@@ -32,12 +31,8 @@ Inspired by: https://github.com/ghzmdr/web-workspace
 +	remove what you not need (like: README.md)
 +	launch npm install
 +	launch npm run bower
-+	launch npm run minifyjs
-+	launch npm run minifycss
-+	launch npm run default
-+	now split the screen and go to work, not think of anything, Think of all Gulp!
-+	you have end your work? press ctrl-C and launch ./distribute.sh (Unix-like OS) or distribute.bat (Windows OS)
-+	now in dist/ directory you have your compiled WebApp
++	you have end your work? press ctrl-C and launch ./distribute.sh (Unix-like OS) or distribute.bat (Windows OS) or launch npm run build
++	now in _dist_ directory you have your compiled WebApp
 +	now distribute your WebApp and enjoy :wink: !
 
 If it is very boring for you
@@ -47,7 +42,6 @@ If it is very boring for you
 +	change bower.json, package.json & gulpfile.js if you need more
 +	chmod +x *.sh
 +	launch setup.sh (Unix-like OS) or setup.bat (Windows OS)
-+	now split the screen and go to work, not think of anything, Think of all Gulp!
 +	you have end your work? press ctrl-C and launch ./distribute.sh (Unix-like OS) or distribute.bat (Windows OS)
-+	now in dist/ directory you have your compiled WebApp
++	now in _dist_ directory you have your compiled WebApp
 +	now distribute your WebApp and enjoy :wink: !

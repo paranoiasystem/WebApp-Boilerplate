@@ -1,5 +1,5 @@
 {
-	"name": "AppName",
+	"name": "PayPost",
 	"url": "http://",
 	"version": "0.0.1",
 	"license": "",
@@ -13,14 +13,15 @@
 			"gulp-ng-annotate": "*",
 			"gulp-uglify": "*",
 			"gulp-uglifycss": "*",
-			"gulp-webserver": "*",
+			"gulp-processhtml": "*",
+			"gulp-clean": "*",
+			"run-sequence": "*",
 			"bower": "*"
 			},
 			"scripts": {
 				"bower": "bower install",
-				"default": "gulp default",
 				"minifyjs": "gulp minifyjs",
 				"minifycss": "gulp minifycss",
-				"liveserver": "gulp server"
+				"build": "gulp build"
 			}
 		}
